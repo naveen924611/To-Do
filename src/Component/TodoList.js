@@ -253,7 +253,7 @@ export default function TodoList(props) {
       </motion.div>
       <motion.div
         className="completed-tasks"
-        initial={{ opacity: 0, y: 10 }}
+        initial={{ opacity: 0, y: 6 }}
         animate={controls}
       >
         <h3>Completed Tasks</h3>
